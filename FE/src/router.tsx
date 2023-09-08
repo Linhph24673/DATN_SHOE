@@ -13,7 +13,7 @@ import Detail from "./components/pages/detail/Detail"
 export const router = createBrowserRouter([
     {path: "/", element: <LayoutWebsite/>,children:[
         {index: true, element:<HomePage/>},
-        {path:"detail",element:<Detail/>},
+        {path: "detail",element:<Detail/>},
         {
             path: "signin",
             element: <Signin />,
